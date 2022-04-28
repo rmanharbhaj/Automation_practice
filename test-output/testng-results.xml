@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-26T19:53:44 EDT" name="Suite" finished-at="2022-04-26T19:55:17 EDT" duration-ms="92519">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T19:53:44 EDT" name="Test" finished-at="2022-04-26T19:55:17 EDT" duration-ms="92519">
+      <class name="com.ap.qa.testcases.DressesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:54:48 EDT" name="setUp" finished-at="2022-04-26T19:54:55 EDT" duration-ms="7300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleOfDressesTest()[pri:1, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:54:55 EDT" name="verifyTitleOfDressesTest" finished-at="2022-04-26T19:54:55 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfDressesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:54:55 EDT" name="tearDown" finished-at="2022-04-26T19:54:55 EDT" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:54:55 EDT" name="setUp" finished-at="2022-04-26T19:55:02 EDT" duration-ms="6982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBannerOfDressesTest()[pri:2, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:55:02 EDT" name="verifyBannerOfDressesTest" finished-at="2022-04-26T19:55:02 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerOfDressesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:55:02 EDT" name="tearDown" finished-at="2022-04-26T19:55:03 EDT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:55:03 EDT" name="setUp" finished-at="2022-04-26T19:55:11 EDT" duration-ms="7638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getListOfCategoriesTest()[pri:3, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:55:11 EDT" name="getListOfCategoriesTest" finished-at="2022-04-26T19:55:16 EDT" duration-ms="5892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfCategoriesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.DressesPageTest@4c1909a3]" started-at="2022-04-26T19:55:16 EDT" name="tearDown" finished-at="2022-04-26T19:55:17 EDT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ap.qa.testcases.DressesPageTest -->
+      <class name="com.ap.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:16 EDT" name="setUp" finished-at="2022-04-26T19:54:27 EDT" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homepageTitleTest()[pri:1, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:27 EDT" name="homepageTitleTest" finished-at="2022-04-26T19:54:29 EDT" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:29 EDT" name="tearDown" finished-at="2022-04-26T19:54:29 EDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:29 EDT" name="setUp" finished-at="2022-04-26T19:54:37 EDT" duration-ms="8087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLinkTest()[pri:2, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:37 EDT" name="validateLinkTest" finished-at="2022-04-26T19:54:39 EDT" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:39 EDT" name="tearDown" finished-at="2022-04-26T19:54:40 EDT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:40 EDT" name="setUp" finished-at="2022-04-26T19:54:45 EDT" duration-ms="5137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnDressesLinkTest()[pri:3, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:45 EDT" name="clickOnDressesLinkTest" finished-at="2022-04-26T19:54:47 EDT" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDressesLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.HomePageTest@4659191b]" started-at="2022-04-26T19:54:47 EDT" name="tearDown" finished-at="2022-04-26T19:54:48 EDT" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ap.qa.testcases.HomePageTest -->
+      <class name="com.ap.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:53:44 EDT" name="setUp" finished-at="2022-04-26T19:53:56 EDT" duration-ms="11136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTitleTest()[pri:1, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:53:56 EDT" name="loginTitleTest" finished-at="2022-04-26T19:53:56 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:53:56 EDT" name="tearDown" finished-at="2022-04-26T19:53:56 EDT" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:53:56 EDT" name="setUp" finished-at="2022-04-26T19:54:02 EDT" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogoTest()[pri:2, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:02 EDT" name="validateLogoTest" finished-at="2022-04-26T19:54:02 EDT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:02 EDT" name="tearDown" finished-at="2022-04-26T19:54:02 EDT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:02 EDT" name="setUp" finished-at="2022-04-26T19:54:08 EDT" duration-ms="5895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLinkTest()[pri:3, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:08 EDT" name="validateLinkTest" finished-at="2022-04-26T19:54:08 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:08 EDT" name="tearDown" finished-at="2022-04-26T19:54:09 EDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:09 EDT" name="setUp" finished-at="2022-04-26T19:54:13 EDT" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:4, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:13 EDT" name="loginTest" finished-at="2022-04-26T19:54:16 EDT" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ap.qa.testcases.LoginPageTest@741a8937]" started-at="2022-04-26T19:54:16 EDT" name="tearDown" finished-at="2022-04-26T19:54:16 EDT" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ap.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

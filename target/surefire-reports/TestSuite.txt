@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 102.678 s <<< FAILURE! - in TestSuite
+setUp(com.ap.qa.testcases.HomePageTest)  Time elapsed: 20.681 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Riddhis-MacBook-Air.local', ip: 'fe80:0:0:0:101a:bbb2:b30e:4ca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac3fa820-989a-4754-8889-954ac5022191, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:63709, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3153, moz:profile: /var/folders/84/03kvb8rn6m9..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:63709/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac3fa820-989a-4754-8889-954ac5022191
+	at com.ap.qa.testcases.HomePageTest.setUp(HomePageTest.java:27)
+
+loginTitleTest(com.ap.qa.testcases.LoginPageTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [Login - My Store] but found [508 Resource Limit Is Reached]
+	at com.ap.qa.testcases.LoginPageTest.loginTitleTest(LoginPageTest.java:30)
+
+validateLogoTest(com.ap.qa.testcases.LoginPageTest)  Time elapsed: 10.168 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #header_logo
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Riddhis-MacBook-Air.local', ip: 'fe80:0:0:0:101a:bbb2:b30e:4ca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c983ee8a-6cd5-4bd5-adc5-a712c6f784b3, findElement {using=id, value=header_logo}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:56842, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3200, moz:profile: /var/folders/84/03kvb8rn6m9..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:56842/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c983ee8a-6cd5-4bd5-adc5-a712c6f784b3
+	at com.ap.qa.testcases.LoginPageTest.validateLogoTest(LoginPageTest.java:35)
+
+validateLinkTest(com.ap.qa.testcases.LoginPageTest)  Time elapsed: 10.164 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[@class='navigation_page']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Riddhis-MacBook-Air.local', ip: 'fe80:0:0:0:101a:bbb2:b30e:4ca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a5f00e0-1716-4dce-a822-e79979c89ab7, findElement {using=xpath, value=//span[@class='navigation_page']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:62004, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3226, moz:profile: /var/folders/84/03kvb8rn6m9..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:62004/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a5f00e0-1716-4dce-a822-e79979c89ab7
+	at com.ap.qa.testcases.LoginPageTest.validateLinkTest(LoginPageTest.java:42)
+
