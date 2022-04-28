@@ -3,15 +3,6 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.ap.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="validateLinkTest"/>
-          <include name="loginTitleTest"/>
-          <include name="validateLogoTest"/>
-        </methods>
-      </class> <!-- com.ap.qa.testcases.LoginPageTest -->
       <class name="com.ap.qa.testcases.HomePageTest">
         <methods>
           <include name="validateLinkTest"/>

@@ -17,11 +17,9 @@
       </class> <!-- com.ap.qa.testcases.DressesPageTest -->
       <class name="com.ap.qa.testcases.HomePageTest">
         <methods>
-          <include name="validateLinkTest"/>
           <include name="tearDown"/>
           <include name="homepageTitleTest"/>
           <include name="setUp"/>
-          <include name="clickOnDressesLinkTest"/>
         </methods>
       </class> <!-- com.ap.qa.testcases.HomePageTest -->
     </classes>

@@ -29,14 +29,14 @@ public class HomePageTest extends TestBase {
 	}
 	
 	@Test(priority = 1)
-	public void homepageTitleTest() throws InterruptedException{
+	public void homepageTitleTest(){
 		String homePageTitle=hp.validateHomePagetitle();
 		Assert.assertEquals(homePageTitle, "My account - My Store","not matched");//if title is not matched thn msg showing
 		
 	}
 	
 	@Test(priority = 2)
-	public void validateLinkTest() throws InterruptedException {
+	public void validateLinkTest(){
 		String actual=hp.validateAuthLink();
 		Assert.assertEquals(actual, "My account","Not Matched");
 		

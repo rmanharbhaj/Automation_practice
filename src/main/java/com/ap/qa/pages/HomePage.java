@@ -22,13 +22,11 @@ public class HomePage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public String validateHomePagetitle() throws InterruptedException {
-		Thread.sleep(2000);
+	public String validateHomePagetitle(){
 		return driver.getTitle();
 	}
 	
-	public String validateAuthLink() throws InterruptedException {
-		Thread.sleep(2000);
+	public String validateAuthLink(){
 		return authLink.getText();
 	}
 	
